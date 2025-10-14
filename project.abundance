@@ -127,11 +127,16 @@
     },
     {
       "atomType": "Molecule",
-      "name": "Molecule",
-      "x": 0.16473000683527,
-      "y": 0.6819277108433734,
+      "name": "Board with holes",
+      "x": 0.16541353383458646,
+      "y": 0.6674698795180724,
       "uniqueID": "b2aba732-d860-474a-b32a-f8de65bf9b1d",
-      "ioValues": [],
+      "ioValues": [
+        {
+          "name": "Length",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -141,6 +146,32 @@
           "y": 0.5,
           "uniqueID": "192a5063-1671-48bb-943e-80a3232cfc95",
           "ioValues": []
+        },
+        {
+          "atomType": "Rectangle",
+          "name": "Rectangle",
+          "x": 0.35611756664388244,
+          "y": 0.45542168674698796,
+          "uniqueID": "468e19e4-ab55-47be-866f-404f8c545ba6",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "name": "Length",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "e4cefe15-9c59-4b6b-8ef2-aa11be0d0e30",
+          "ioValues": [],
+          "type": "number"
         }
       ],
       "allConnectors": [],
