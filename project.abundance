@@ -134,7 +134,23 @@
       "ioValues": [
         {
           "name": "Length",
-          "ioValue": 10
+          "ioValue": 1000,
+          "currentEquation": "1000"
+        },
+        {
+          "name": "Width",
+          "ioValue": 400,
+          "currentEquation": "400"
+        },
+        {
+          "name": "Thickness",
+          "ioValue": 15,
+          "currentEquation": "15"
+        },
+        {
+          "name": "Hole Size",
+          "ioValue": 100,
+          "currentEquation": "100"
         }
       ],
       "topLevel": false,
@@ -150,17 +166,17 @@
         {
           "atomType": "Rectangle",
           "name": "Rectangle",
-          "x": 0.35611756664388244,
-          "y": 0.45542168674698796,
+          "x": 0.32809295967190705,
+          "y": 0.24819277108433732,
           "uniqueID": "468e19e4-ab55-47be-866f-404f8c545ba6",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 1000
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 400
             }
           ]
         },
@@ -172,9 +188,95 @@
           "uniqueID": "e4cefe15-9c59-4b6b-8ef2-aa11be0d0e30",
           "ioValues": [],
           "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "name": "Width",
+          "x": 0.025384615384615384,
+          "y": 0.23373493975903614,
+          "uniqueID": "9497632f-e8d1-40b7-9294-f6e1c755158d",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "name": "Thickness",
+          "x": 0.025384615384615384,
+          "y": 0.31065801668211307,
+          "uniqueID": "b6773f6b-6509-441d-95d4-44d73ff8f8d4",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "RegularPolygon",
+          "name": "RegularPolygon",
+          "x": 0.34039644565960353,
+          "y": 0.5759036144578313,
+          "uniqueID": "a3c95527-371f-4676-ac0d-614376d39ff2",
+          "ioValues": [
+            {
+              "name": "number of sides",
+              "ioValue": 6
+            },
+            {
+              "name": "diameter",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "name": "Hole Size",
+          "x": 0.025384615384615384,
+          "y": 0.38758109360519,
+          "uniqueID": "896a10bf-f2f1-4a3e-bee4-907dedeed272",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "RegularPolygon",
+          "name": "RegularPolygon",
+          "x": 0.34107997265892,
+          "y": 0.7759036144578313,
+          "uniqueID": "6954b941-9872-4285-b207-80d3fd22444e",
+          "ioValues": [
+            {
+              "name": "number of sides",
+              "ioValue": 6
+            },
+            {
+              "name": "diameter",
+              "ioValue": 100
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "x length",
+          "ap1ID": "e4cefe15-9c59-4b6b-8ef2-aa11be0d0e30",
+          "ap2ID": "468e19e4-ab55-47be-866f-404f8c545ba6"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "y length",
+          "ap1ID": "9497632f-e8d1-40b7-9294-f6e1c755158d",
+          "ap2ID": "468e19e4-ab55-47be-866f-404f8c545ba6"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "diameter",
+          "ap1ID": "896a10bf-f2f1-4a3e-bee4-907dedeed272",
+          "ap2ID": "6954b941-9872-4285-b207-80d3fd22444e"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "diameter",
+          "ap1ID": "896a10bf-f2f1-4a3e-bee4-907dedeed272",
+          "ap2ID": "a3c95527-371f-4676-ac0d-614376d39ff2"
+        }
+      ],
       "fileTypeVersion": 1,
       "compiledBom": {}
     }
