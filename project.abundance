@@ -124,6 +124,28 @@
       "uniqueID": "365f4b3e-516d-48ca-adb8-44ede3bccd30",
       "ioValues": [],
       "type": "number"
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Molecule",
+      "x": 0.16473000683527,
+      "y": 0.6819277108433734,
+      "uniqueID": "b2aba732-d860-474a-b32a-f8de65bf9b1d",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "192a5063-1671-48bb-943e-80a3232cfc95",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
     }
   ],
   "allConnectors": [
