@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Board Thickness",
-      "ioValue": 18,
-      "currentEquation": "18"
+      "ioValue": 15,
+      "currentEquation": "15"
     },
     {
       "name": "Unit Height",
@@ -35,13 +35,13 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 18,
+          "ioValue": 15,
           "currentEquation": "400"
         },
         {
           "name": "y length",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 400,
+          "currentEquation": "400"
         }
       ]
     },
@@ -73,6 +73,24 @@
         {
           "name": "height",
           "ioValue": 1000
+        }
+      ]
+    },
+    {
+      "atomType": "RegularPolygon",
+      "name": "RegularPolygon",
+      "x": 0.2155495978552279,
+      "y": 0.6186046511627906,
+      "uniqueID": "f7b50ab1-1e9b-4d01-98f8-d9360ee7c0db",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6
+        },
+        {
+          "name": "diameter",
+          "ioValue": 100,
+          "currentEquation": "100"
         }
       ]
     }
