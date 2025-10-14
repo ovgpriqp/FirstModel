@@ -29,8 +29,8 @@
     {
       "atomType": "Rectangle",
       "name": "Rectangle",
-      "x": 0.3903485254691689,
-      "y": 0.44418604651162796,
+      "x": 0.35269993164730007,
+      "y": 0.25542168674698795,
       "uniqueID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07",
       "ioValues": [
         {
@@ -66,8 +66,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.47828418230563,
-      "y": 0.655813953488372,
+      "x": 0.49555707450444286,
+      "y": 0.5493975903614458,
       "uniqueID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c",
       "ioValues": [
         {
@@ -79,8 +79,8 @@
     {
       "atomType": "RegularPolygon",
       "name": "RegularPolygon",
-      "x": 0.2155495978552279,
-      "y": 0.6186046511627906,
+      "x": 0.3875598086124402,
+      "y": 0.8650602409638554,
       "uniqueID": "f7b50ab1-1e9b-4d01-98f8-d9360ee7c0db",
       "ioValues": [
         {
@@ -91,6 +91,69 @@
           "name": "diameter",
           "ioValue": 100,
           "currentEquation": "100"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "name": "Assembly",
+      "x": 0.7204374572795625,
+      "y": 0.6939759036144578,
+      "uniqueID": "39aa1b26-9f1d-4c60-a928-4096764824b4",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "extrude-3a229431a13a89445023d20e9e918fb40a41fcb8dc13da862f735469cbd093d0",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "polysides-48014440388dd5c1ca43c44f644200637c83e0a31548f315ebca77bfbaf3101d",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         }
       ]
     }
@@ -113,10 +176,28 @@
       "ap2Name": "height",
       "ap1ID": "1a451727-f681-4cd3-bb7c-e2df49bd6165",
       "ap2ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c",
+      "ap2ID": "ba8cbf12-d480-4fb2-93ea-ae574cbf5cc8"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 1",
+      "ap1ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c",
+      "ap2ID": "39aa1b26-9f1d-4c60-a928-4096764824b4"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 2",
+      "ap1ID": "f7b50ab1-1e9b-4d01-98f8-d9360ee7c0db",
+      "ap2ID": "39aa1b26-9f1d-4c60-a928-4096764824b4"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": {},
+  "compiledBom": [],
   "filetypeVersion": 1
 }
