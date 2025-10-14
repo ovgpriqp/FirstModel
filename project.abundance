@@ -1,15 +1,104 @@
 {
-    "atomType": "Molecule",
-    "name": "FirstModel",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "7c5bf01d-4905-4892-b0ff-615c1a36eb55",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "FirstModel",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "7c5bf01d-4905-4892-b0ff-615c1a36eb55",
+  "ioValues": [
+    {
+      "name": "Board Thickness",
+      "ioValue": 18,
+      "currentEquation": "18"
+    },
+    {
+      "name": "Unit Height",
+      "ioValue": 1000,
+      "currentEquation": "1000"
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "ba8cbf12-d480-4fb2-93ea-ae574cbf5cc8",
+      "ioValues": []
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.3903485254691689,
+      "y": 0.44418604651162796,
+      "uniqueID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 18,
+          "currentEquation": "400"
+        },
+        {
+          "name": "y length",
+          "ioValue": 15,
+          "currentEquation": "15"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "name": "Board Thickness",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "91cff2ef-ff31-4204-a741-e569ee478d0a",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "name": "Unit Height",
+      "x": 0.025384615384615384,
+      "y": 0.23076923076923078,
+      "uniqueID": "1a451727-f681-4cd3-bb7c-e2df49bd6165",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.47828418230563,
+      "y": 0.655813953488372,
+      "uniqueID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 1000
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07",
+      "ap2ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "x length",
+      "ap1ID": "91cff2ef-ff31-4204-a741-e569ee478d0a",
+      "ap2ID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "height",
+      "ap1ID": "1a451727-f681-4cd3-bb7c-e2df49bd6165",
+      "ap2ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
