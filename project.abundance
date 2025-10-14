@@ -7,13 +7,21 @@
   "ioValues": [
     {
       "name": "Board Thickness",
-      "ioValue": 15,
-      "currentEquation": "15"
+      "ioValue": 15
     },
     {
       "name": "Unit Height",
-      "ioValue": 1000,
-      "currentEquation": "1000"
+      "ioValue": 1000
+    },
+    {
+      "name": "Unit Width",
+      "ioValue": 400,
+      "currentEquation": "400"
+    },
+    {
+      "name": "Polygon Diameter",
+      "ioValue": 100,
+      "currentEquation": "100"
     }
   ],
   "topLevel": true,
@@ -35,13 +43,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 15,
-          "currentEquation": "400"
+          "ioValue": 1000
         },
         {
           "name": "y length",
-          "ioValue": 400,
-          "currentEquation": "400"
+          "ioValue": 400
         }
       ]
     },
@@ -66,21 +72,21 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.49555707450444286,
-      "y": 0.5493975903614458,
+      "x": 0.8209159261790842,
+      "y": 0.163855421686747,
       "uniqueID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 1000
+          "ioValue": 15
         }
       ]
     },
     {
       "atomType": "RegularPolygon",
       "name": "RegularPolygon",
-      "x": 0.3875598086124402,
-      "y": 0.8650602409638554,
+      "x": 0.3547505126452495,
+      "y": 0.42409638554216866,
       "uniqueID": "f7b50ab1-1e9b-4d01-98f8-d9360ee7c0db",
       "ioValues": [
         {
@@ -89,8 +95,7 @@
         },
         {
           "name": "diameter",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         }
       ]
     },
@@ -100,100 +105,57 @@
       "x": 0.7204374572795625,
       "y": 0.6939759036144578,
       "uniqueID": "39aa1b26-9f1d-4c60-a928-4096764824b4",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "extrude-3a229431a13a89445023d20e9e918fb40a41fcb8dc13da862f735469cbd093d0",
-            "dimension": "3D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "polysides-48014440388dd5c1ca43c44f644200637c83e0a31548f315ebca77bfbaf3101d",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        }
-      ]
+      "ioValues": []
+    },
+    {
+      "atomType": "Input",
+      "name": "Unit Width",
+      "x": 0.025384615384615384,
+      "y": 0.3076923076923077,
+      "uniqueID": "377a1151-bf8e-4ea2-86f0-eeca1239c541",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "name": "Polygon Diameter",
+      "x": 0.025384615384615384,
+      "y": 0.38461538461538464,
+      "uniqueID": "365f4b3e-516d-48ca-adb8-44ede3bccd30",
+      "ioValues": [],
+      "type": "number"
     }
   ],
   "allConnectors": [
     {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07",
+      "ap1Name": "number or geometry",
+      "ap2Name": "height",
+      "ap1ID": "91cff2ef-ff31-4204-a741-e569ee478d0a",
       "ap2ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c"
     },
     {
       "ap1Name": "number or geometry",
       "ap2Name": "x length",
-      "ap1ID": "91cff2ef-ff31-4204-a741-e569ee478d0a",
-      "ap2ID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07"
-    },
-    {
-      "ap1Name": "number or geometry",
-      "ap2Name": "height",
       "ap1ID": "1a451727-f681-4cd3-bb7c-e2df49bd6165",
-      "ap2ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c"
+      "ap2ID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "number or geometry",
-      "ap1ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c",
+      "ap1ID": "39aa1b26-9f1d-4c60-a928-4096764824b4",
       "ap2ID": "ba8cbf12-d480-4fb2-93ea-ae574cbf5cc8"
     },
     {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 1",
-      "ap1ID": "686e3fde-4a8a-475e-bbdc-0f6ba8a6084c",
-      "ap2ID": "39aa1b26-9f1d-4c60-a928-4096764824b4"
+      "ap1Name": "number or geometry",
+      "ap2Name": "y length",
+      "ap1ID": "377a1151-bf8e-4ea2-86f0-eeca1239c541",
+      "ap2ID": "3d54cf3f-87e1-48a2-a732-0e3dd1e9ca07"
     },
     {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 2",
-      "ap1ID": "f7b50ab1-1e9b-4d01-98f8-d9360ee7c0db",
-      "ap2ID": "39aa1b26-9f1d-4c60-a928-4096764824b4"
+      "ap1Name": "number or geometry",
+      "ap2Name": "diameter",
+      "ap1ID": "365f4b3e-516d-48ca-adb8-44ede3bccd30",
+      "ap2ID": "f7b50ab1-1e9b-4d01-98f8-d9360ee7c0db"
     }
   ],
   "unitsKey": "MM",
