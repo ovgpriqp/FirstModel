@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "FirstModel",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "7c5bf01d-4905-4892-b0ff-615c1a36eb55",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
