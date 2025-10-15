@@ -15,13 +15,11 @@
     },
     {
       "name": "Unit Width",
-      "ioValue": 400,
-      "currentEquation": "400"
+      "ioValue": 400
     },
     {
       "name": "Polygon Diameter",
-      "ioValue": 100,
-      "currentEquation": "100"
+      "ioValue": 100
     }
   ],
   "topLevel": true,
@@ -134,23 +132,19 @@
       "ioValues": [
         {
           "name": "Length",
-          "ioValue": 1000,
-          "currentEquation": "1000"
+          "ioValue": 1000
         },
         {
           "name": "Width",
-          "ioValue": 400,
-          "currentEquation": "400"
+          "ioValue": 400
         },
         {
           "name": "Thickness",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 15
         },
         {
           "name": "Hole Size",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         }
       ],
       "topLevel": false,
@@ -169,16 +163,7 @@
           "x": 0.32809295967190705,
           "y": 0.24819277108433732,
           "uniqueID": "468e19e4-ab55-47be-866f-404f8c545ba6",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 1000
-            },
-            {
-              "name": "y length",
-              "ioValue": 400
-            }
-          ]
+          "ioValues": []
         },
         {
           "atomType": "Input",
@@ -193,7 +178,7 @@
           "atomType": "Input",
           "name": "Width",
           "x": 0.025384615384615384,
-          "y": 0.23373493975903614,
+          "y": 0.23076923076923078,
           "uniqueID": "9497632f-e8d1-40b7-9294-f6e1c755158d",
           "ioValues": [],
           "type": "number"
@@ -202,7 +187,7 @@
           "atomType": "Input",
           "name": "Thickness",
           "x": 0.025384615384615384,
-          "y": 0.31065801668211307,
+          "y": 0.3076923076923077,
           "uniqueID": "b6773f6b-6509-441d-95d4-44d73ff8f8d4",
           "ioValues": [],
           "type": "number"
@@ -228,7 +213,7 @@
           "atomType": "Input",
           "name": "Hole Size",
           "x": 0.025384615384615384,
-          "y": 0.38758109360519,
+          "y": 0.38461538461538464,
           "uniqueID": "896a10bf-f2f1-4a3e-bee4-907dedeed272",
           "ioValues": [],
           "type": "number"
